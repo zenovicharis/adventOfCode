@@ -9,7 +9,3 @@ var nearestSq = (Math.pow(ceilNum, 2) - input) < (input - Math.pow(floorNum, 2))
 var distance = input - Math.pow(nearestSq, 2) ;
 
 console.log(distance);
-
-//  the distance from center will always be ${nerestSq} / 2 
-//  it only matters the position of ${input} 
-
